@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+}
+
+.qr-code-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 24px;
+    max-width: 250px;
+}
+
+.qr-code {
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+}
+
+.title{
+    font-family: 'Outfit' , sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Instruction{
+    font-family: 'outfit' , sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
