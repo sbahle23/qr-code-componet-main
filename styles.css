@@ -14,7 +14,7 @@ main {
 .qr-code-card {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 16px;
     background-color: white;
     padding: 12px;
     border-radius: 24px;
